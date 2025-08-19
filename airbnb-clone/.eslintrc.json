@@ -1,0 +1,25 @@
+{
+  "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
+  "ignorePatterns": ["node_modules/", ".next/", "out/", "app/lib/generated/prisma/**"],
+  "overrides": [
+    {
+      "files": ["app/lib/generated/prisma/**"],
+      "rules": {
+        "@typescript-eslint/no-this-alias": "off",
+        "@typescript-eslint/no-require-imports": "off",
+        "@typescript-eslint/no-unused-expressions": "off",
+        "@typescript-eslint/no-unused-vars": "off"
+      }
+    }
+  ],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_", "ignoreRestSiblings": true }
+    ],
+    "@typescript-eslint/no-unused-expressions": [
+      "warn",
+      { "allowShortCircuit": true, "allowTernary": true, "allowTaggedTemplates": true }
+    ]
+  }
+}
