@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "name": "south-africa-provinces-dev",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Western Cape", "NAME_1": "Western Cape", "province": "Western Cape", "code": "WC" },
+      "geometry": { "type": "Point", "coordinates": [21.5, -33.5] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Northern Cape", "NAME_1": "Northern Cape", "province": "Northern Cape", "code": "NC" },
+      "geometry": { "type": "Point", "coordinates": [21.8, -29.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Eastern Cape", "NAME_1": "Eastern Cape", "province": "Eastern Cape", "code": "EC" },
+      "geometry": { "type": "Point", "coordinates": [26.5, -32.7] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Free State", "NAME_1": "Free State", "province": "Free State", "code": "FS" },
+      "geometry": { "type": "Point", "coordinates": [26.8, -28.9] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Gauteng", "NAME_1": "Gauteng", "province": "Gauteng", "code": "GP" },
+      "geometry": { "type": "Point", "coordinates": [28.3, -26.25] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "KwaZulu-Natal", "NAME_1": "KwaZulu-Natal", "province": "KwaZulu-Natal", "code": "KZN" },
+      "geometry": { "type": "Point", "coordinates": [31.0, -28.8] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Limpopo", "NAME_1": "Limpopo", "province": "Limpopo", "code": "LP" },
+      "geometry": { "type": "Point", "coordinates": [29.5, -23.8] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Mpumalanga", "NAME_1": "Mpumalanga", "province": "Mpumalanga", "code": "MP" },
+      "geometry": { "type": "Point", "coordinates": [30.9, -25.5] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "North West", "NAME_1": "North West", "province": "North West", "code": "NW" },
+      "geometry": { "type": "Point", "coordinates": [25.3, -26.0] }
+    }
+  ]
+}
