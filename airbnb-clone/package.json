@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "next build"
+
   },
   "dependencies": {
     "@kinde-oss/kinde-auth-nextjs": "^2.8.6",

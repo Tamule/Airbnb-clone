@@ -1,35 +1,3 @@
-// import countries from "world-countries";
-
-// const getFlagEmoji = (countryCode: string) => {
-//   return countryCode
-//     .toUpperCase()
-//     .replace(/./g, (char) => String.fromCodePoint(127397 + char.charCodeAt(0)));
-// };
-
-// const countriesFormatted = countries.map((item) => ({
-//   value: item.cca2,
-//   label: item.name.common,
-//   flag: item.flag || getFlagEmoji(item.cca2),
-//   latLang: item.latlng,
-//   region: item.region,
-// }));
-
-// console.log("Sample country data:", countriesFormatted[0]);
-// console.log("US country:", countriesFormatted.find(c => c.value === "US"));
-
-// export const useCountries = () => {
-//   const getAllCountries = () => countriesFormatted;
-
-//   const getCountryByValue = (value: string) => {
-//     return countriesFormatted.find((item) => item.value === value);
-//   };
-
-//   return {
-//     getAllCountries,
-//     getCountryByValue,
-//   };
-// };
-
 
 
 const ZA_FLAG = "🇿🇦";
